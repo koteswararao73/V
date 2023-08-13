@@ -7,7 +7,7 @@ resource "aws_instance" "koteswa" {
     key_name = "aws_key_pair.key.id"
     subnet_id = "subnet-036d83bfc74e674ac"
     security_groups = [ "sg-0132e4b6e77570d07" ]
-    tags {
+    tags = {
         Name = "gabbeiir"
     }
   
